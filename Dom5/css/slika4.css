@@ -1,0 +1,88 @@
+.header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.left {
+    width: 30%;
+    height: 100%;
+    background-color: grey;
+
+}
+.right {
+    width: 70%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.small-blocks {
+    width: 15%;
+    height: 50px;
+    background-color: grey;
+    margin-left: 5px;
+}
+
+.content {
+    width: 100%;
+    height: calc(140% - 30px);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.footer {
+    width: 100%;
+    height: 20%;
+    background-color: grey;
+}
+.vertical-block {
+    width: 20%;
+    height: 100%;
+    background-color: grey;
+    
+}
+.content-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.horizontal-block {
+    width: calc(100% - 15px);
+    height: 20%;
+    background-color: grey;
+    margin-left: 15px;
+}
+.two-blocks {
+    width: calc(100% - 15px);
+    height: 50%;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.first-block {
+    width: 75%;
+    height: 100%;
+    background-color: grey;
+}
+.second-block {
+    width: calc(25% - 7.5px);
+    height: 100%;
+    margin-left: 15px;
+    background-color: grey;
+}
+.multi-box {
+    display: flex;
+    width: 100%;
+    height: 30%;
+}
+.square {
+    width: calc(25% - 15px);
+    height: 100%;
+    background-color: grey;
+    margin-left: 15px;
+    
+}
