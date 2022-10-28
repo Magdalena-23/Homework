@@ -1,5 +1,8 @@
 body {
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .all-content {
     width: 1100px;
