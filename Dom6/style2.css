@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.parent {
+    width: 800px;
+}
+
+.green {
+    background-color: rgb(153, 207, 26);
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.small-block {
+    width: 80px;
+    height: 100px;
+}
+
+.medium-block {
+    width: 160px;
+    height: 100px;
+}
+
+.big-block {
+    width: 430px;
+    height: 100px;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.second-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.third-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.fourth-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
