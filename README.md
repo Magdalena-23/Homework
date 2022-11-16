@@ -1,4 +1,8 @@
 # Homeworks
+
+# Preview 8
+![alt text](https://github.com/Magdalena-23/Homework/blob/main/Homework%20-%20Screenshots/Homework8.png)
+
 # Preview 7
 ![alt text](https://github.com/Magdalena-23/Homework/blob/main/Homework%20-%20Screenshots/Homework7.png)
 
