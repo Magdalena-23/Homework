@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        //The lifetime supply calculator
+        var currentAge = 23;
+        var maxAge = 75;
+        var amount = 2;
+        var lifetimeSupply = (maxAge - currentAge)*365*amount;
+        var money = lifetimeSupply*50;
+        console.log( "You will need " + lifetimeSupply + " doritos bbq packs of chips to last you until the ripe old age of " + maxAge + ". Which will cost you " + money + " denars. ");
+
+        //The temperature converter
+        var celsius = parseFloat(prompt("Type in the °C you want to convert to °F:"));
+        var fahrenheit = ((celsius/5)*9)+32;
+        alert(celsius + " °C is " + fahrenheit + " °F.");
+        var fahrenheit = parseFloat(prompt("Type in the °F you want to convert to °C:"));
+        var celsius = ((fahrenheit-32)*5)/9;
+        alert(fahrenheit + " °F is " + celsius + " °C.");
+      
+        //The geometrizer
+        var radius = parseFloat(prompt("Type in the radius to calculate the circumference and the area of the circle"));
+        PI = 3.14;
+        var circumference = ((2*PI)*radius);
+        alert("The circumference of the circle is " + circumference + " cm.");
+        var area = (PI*(radius*radius));
+        alert("The area of the circle is " + area + " cm².");
+
+    </script>
+</body>
+</html>
