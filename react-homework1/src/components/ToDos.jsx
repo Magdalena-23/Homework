@@ -22,7 +22,7 @@ const ToDos = () => {
             <ol>
                 {todos.map(todo => (
                     <li key={todo.id}  
-                        style={todo.completed === true ? {textDecoration: "line-through", color: "red"} : {color: "green"}}>{todo.title}
+                        style={todo.completed ? {textDecoration: "line-through", color: "red"} : {color: "green"}}>{todo.title}
                     </li>
                 ))}
             </ol>
