@@ -21,12 +21,14 @@ const ToDos = () => {
             <div className="to-dos">To-do's</div>
             <ol>
                 {todos.map(todo => (
-                    todo.completed === true ? 
-                    <li key={todo.id} style={{textDecoration: "line-through", color: "red"}}>{todo.title}</li> : <li key={todo.id} style={{color: "green"}}>{todo.title}</li>  
+                    <li key={todo.id}  
+                        style={todo.completed === true ? {textDecoration: "line-through", color: "red"} : {color: "green"}}>{todo.title}
+                    </li>
                 ))}
             </ol>
         </div>
     )
 }
 
+               
 export default ToDos;
