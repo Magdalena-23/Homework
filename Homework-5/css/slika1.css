@@ -1,0 +1,41 @@
+
+.orange{
+    background-color: orange;
+}
+.pink{
+    background-color: palevioletred;
+}
+.green{
+    background-color: green;
+   
+}
+#blue{
+    background-color: blue;
+}
+#red{
+    background-color: red;
+}
+#grey{
+    background-color: grey;
+}
+#brown{
+    background-color: brown;
+}
+
+body {
+    color: white;
+    
+}
+
+table{
+    width: 70%;
+    height: 100px;
+}
+td {
+    padding: 15px;
+    vertical-align: text-top;
+
+}
+table, th, td {
+    border: 2px solid white;
+}
