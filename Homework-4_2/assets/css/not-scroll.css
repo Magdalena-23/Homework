@@ -1,0 +1,5 @@
+body {
+    background-image: url(../images/no-scroll.jpg);
+    
+    background-attachment: fixed;
+}
