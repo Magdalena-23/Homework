@@ -1,0 +1,115 @@
+table {
+  margin: auto;
+}
+
+body {
+  background-color: rgba(128, 128, 128, 0.137);
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+th {
+  background-color: rgb(184, 129, 236);
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px 0px rgba(89, 87, 87, 0.85);
+}
+
+.delete {
+  background-color: rgb(223, 4, 4);
+}
+
+.delete:hover {
+  background-color: rgb(255, 36, 36);
+  cursor: pointer;
+}
+.checked:hover {
+  background-color: rgb(1, 187, 1);
+  cursor: pointer;
+}
+.edit:hover {
+  background-color: rgb(255, 7, 214);
+  cursor: pointer;
+}
+.checked {
+  background-color: green;
+}
+
+.center {
+  text-align: center;
+}
+
+.save {
+  background-color: blueviolet;
+  margin-left: 5px;
+}
+.cancel:hover {
+  background-color: rgb(177, 45, 45);
+  cursor: pointer;
+}
+
+.save:hover {
+  background-color: rgb(165, 80, 245);
+  cursor: pointer;
+}
+
+.edit {
+  background-color: rgb(172, 0, 106);
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.cancel {
+  background-color: rgb(148, 2, 2);
+  margin-left: 5px;
+}
+
+.completed {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.add-todo {
+  background-color: blueviolet;
+  margin-top: 5px;
+  cursor: pointer;
+  box-shadow: 1px 2px 3 px 0px rgba(89, 87, 87, 0.85);
+}
+
+.add-todo:hover {
+  background-color: rgb(160, 61, 253);
+}
+
+.add {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.add-input {
+  border-radius: 5px;
+  padding: 2px;
+  border: 2px solid rgb(141, 141, 141);
+  outline: none;
+  transition: 0.3s;
+}
+.add-input:focus {
+  border-color: blueviolet;
+  box-shadow: 0 0 8px 0 blueviolet;
+}
